@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            bootstrap
+        </title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <style>
+            .row:hover{
+            background-color: brown;
+            color: red;
+            }
+            .row::content{
+                text-justify: distribute-all-lines;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="row">
+            <div class="col-sm-4" style="background-color: lavender;"> col-sm-4</div>
+            <div class="col-sm-4" style="background-color:lightpink;">col-sm-4</div>
+            <div class="col-sm-4" style="background-color: lavender;">col-sm-4</div>
+            <a href="#">&times;</a>
+            <a href="#" data-toggle="tooltip" title="horrey">hover me </a>
+        </div>
+        <input placeholder="click">
+        <button data-toggle="tooltip" title="join now"> Join Now</button>
+        <button>Connet</button>
+        <span>0 create</span>
+        <div>Basic panel</div>
+        <div>Panal content</div>
+    </body>
+    <body data-spy="scroll" data-target="#myScrollspy" data-offset="20">
+
+          <div class="container">
+            <div class="row">
+              <nav class="col-sm-3" id="myScrollspy">
+                <ul class="nav nav-pills nav-stacked">
+                  <li><a href="#section1">Section 1</a></li>
+                  ...
+                </ul>
+              </nav>
+              <div class="col-sm-9">
+                <div id="section1"> 
+                  <h1>Section 1</h1>
+                  <p>Try to scroll this page and look at the navigation list while scrolling!</p>
+                </div> 
+                ...
+              </div>
+            </div>
+          </div>
+
+
+        <div class="container">
+              <div class="jumbotron">
+                <h1>Bootstrap Tutorial</h1> 
+                <p>Bootstrap is the most popular HTML, CSS, and JS framework for developing
+                responsive, mobile-first projects on the web.</p> 
+              </div>
+              <p>This is some text.</p> 
+              <p>This is another text.</p> 
+            </div>
+
+            <div class="btn-group">
+                  <button type="button" class="btn btn-primary">Apple</button>
+                  <button type="button" class="btn btn-info">Samsung</button>
+                  <button type="button" class="btn btn-primary">Sony</button>
+                </div>
+
+                <div id="thecarousel" class="carousel slide" data-ride="carousel">
+
+                    <ol class="carousel-indicator">
+                        <li data-target="#thecarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#thecarousel" data-slide-to="1"></li>
+                        <li data-target="#thecarousel" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <div class="slide1"></div>
+                            <div class="carousel-caption">
+                                <h1>Amazing creation</h1>
+                                <p><a href="#" class="btn btn-primary btn-btn-sm">Get them now</a></p>
+                            </div>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="item">
+                                <div class="slide2"></div>
+                                <div class="carousel-caption">
+                                    <h1>Amazing creation slot</h1>
+                                    <p><a href="#" class="btn btn-primary btn-btn-sm">every creation you can imagine</a></p>
+                                </div>
+                            </div>
+                        </div>
+
+                            <div class="carousel-inner">
+                                <div class="item">
+                                    <div class="slide3"></div>
+                                    <div class="carousel-caption">
+                                        <h1>Amazing creation</h1>
+                                        <p><a href="#" class="btn btn-primary btn-btn-sm">Get them now</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+
+                    
+                <a class="left carousel-control" href="#thecarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chavron-left"></span>
+                 <a href="#"   class="btn btn-primary btn-lg"><span class="glyphicon glyphicon-trash"></span></a> 
+                </a>
+                <a class="right carousel-control" href="#thecarousel" data-slide="Next">
+                    <span class="glyphicon glyphicon-chavron-right"></span></a>
+                </div>
+
+
+
+        
+        </body>
+        <script src="assets/js/bootstrap.min.js"></script>
+</html>

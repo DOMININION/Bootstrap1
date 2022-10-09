@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Add the dropdown-toggle class and the data-toggle="dropdown" attribute to the sony button to creat a dropdown</title>
+        <meta name="viewpoint" content="width-device-width", initial-scale="1">
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+    </head>
+    <body>
+        <span>
+            <a href="index.html" style="margin-bottom: 50px ;">Back to Homepage</a> 
+        </span>
+        <div class="container">
+            <div class="btn-group">
+                <button type="button" class="btn btn-primary">Apple</button>
+                <button type="button" class="btn btn-primary">Samsung</button>
+                <div class="btn-group">
+                    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">Sony 
+                    <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="#">Tablet</a></li>
+                        <li><a href="#">Smartphone</a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+
+        <script src="assets/js/bootstrap.min.js"></script>
+    </body>
+</html>
